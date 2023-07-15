@@ -1,0 +1,134 @@
+@media screen and (max-width: 768px) {
+    .header{
+        font-size: 1.3rem;
+    }
+    .top-Heading h1{
+        font-size: 2.8rem;
+        font-weight: 800;
+    
+    }
+    .top-Heading h2{
+        font-size: 2.5rem;
+    }
+    .book-box{
+        flex-direction: column;
+    }
+    .book-details{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid red ; */
+       
+    }
+    .image-box{
+        height: auto;
+    }
+    .image-box img{
+        width: 60%;
+    }
+    .book-box ul{
+        width: 80%;  
+        text-align: start;
+    }
+    .top-Heading h1{
+        font-size: 2rem;
+        font-weight: 800; 
+    }
+    .socialIcon .icon1{
+     
+        margin: 15px 0px;
+    
+    }
+    #getCourse{
+        display: block;
+        padding: 5px 50px;
+        border-radius: 50px;
+        box-shadow: 0px 12px 20px #e7be073a;
+        border: none;
+        color: #fff;
+        background-color: rgb(255, 171, 15);
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+    #getCourse2{
+        display: none;
+        cursor: pointer;
+    }
+    .picesoon{
+        width: 95%;
+        margin: 0px auto;
+        padding: 15px 0px;
+        font-size: .8rem;
+        border-radius: 10px;
+        background-color: #1EB800;
+        color: #fff;
+        letter-spacing: 1px;
+    }
+    .succecProfile{
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    
+    }
+    .demos{
+        flex-direction: column;
+        row-gap: 50px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .header{
+        font-size: .7rem;
+     
+    }
+    .succecProfile{
+    
+
+        flex-direction: column;
+    
+    }
+    .top-Heading h1{
+        font-size: 1.8rem;
+        font-weight: 800; 
+    }
+    .top-Heading h2{
+        font-size: 1.6rem;
+    }
+    .top-Heading h3{
+        font-size: 1.2rem;
+        }
+        .book-box ul{
+        
+            font-size: 1rem;
+          
+        }
+        .userFor h2{
+            font-size: 2rem;
+        }
+        .rightsite{
+          
+            justify-content: space-around;
+           
+        }
+        .rightsite p{
+            font-size: 1.2rem;
+            font-weight: 400;
+            color: #fff;
+            margin: 0px ;
+        }
+        .image-box img{
+            width: 100%;
+        }
+        .privacy-policy p{
+            width: 100%;
+            margin: 0px auto;
+        }
+        .shadow2{
+            position: absolute;
+            top: 72%;
+            right: 0px;
+        }
+        .gototop,.whatsapp{
+            right: 8px;
+        }
+}
