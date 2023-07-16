@@ -4,7 +4,7 @@
    
 // })
 
-let endDate = "16 July 2023 7:00 am"
+let endDate = "16 July 2023 11:00 pm"
 
 let countdown = document.querySelectorAll(".countdown");
 function clock(){
